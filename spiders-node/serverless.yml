@@ -36,16 +36,24 @@ functions:
            method: get
            path: test
   score:
-    handler: src/score.test
+    handler: src/score.testc
     events:
       - http:
            method: get
            path: test
   team:
-    handler: src/team.test
+    handler: src/team.ctcl
+    events:
+      - http:
+           method: get
+           path: test
+  cricket:
+    handler: src/cricket.test
     events:
       - http:
            method: get
            path: test
 
+
+  
 
